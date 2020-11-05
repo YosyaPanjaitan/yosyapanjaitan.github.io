@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+		<style>
+			.latarbelakang{
+				background-image: url("../images/web.jpg");
+				background-size: cover;
+				background-attachment: fixed;
+				}
+
+			.pf{
+				font-size: 7px;
+				}
+
+				* {
+					  box-sizing: border-box;
+					}
+
+					#myInput0 { background-color: rgba(0, 0, 0, 0.42); color: white; background-position: 10px 12px; background-repeat: no-repeat; width: 100%; font-size: 16px; padding: 12px 20px 12px 40px; border: 1px solid #ddd; margin-bottom: 12px; }
+					#myUL0 { list-style-type: none; padding: 0; margin: 0; width: 100%;}
+					#myUL0 li a { border: 1px; margin-top: -1px; /* Prevent double borders */ background-color: rgba(0, 0, 0, 0.42) ; color: white; padding: 12px; text-decoration: none; font-size: 12px; display: block }
+					#myUL0 li a:hover:not(.header) { background-color: blue; }
+
+					#myInput1 { background-color: rgba(0, 0, 0, 0.42); color: white; background-position: 10px 12px; background-repeat: no-repeat; width: 100%; font-size: 16px; padding: 12px 20px 12px 40px; border: 1px solid #ddd; margin-bottom: 12px; }
+					#myUL1 { list-style-type: none; padding: 0; margin: 0; width: 100%;}
+					#myUL1 li a { border: 1px; margin-top: -1px; /* Prevent double borders */ background-color: rgba(0, 0, 0, 0.42) ; color: white; padding: 12px; text-decoration: none; font-size: 12px; display: block }
+					#myUL1 li a:hover:not(.header) { background-color: blue; }
+
+					#myInput2 { background-color: rgba(0, 0, 0, 0.42); color: white; background-position: 10px 12px; background-repeat: no-repeat; width: 100%; font-size: 16px; padding: 12px 20px 12px 40px; border: 1px solid #ddd; margin-bottom: 12px; }
+					#myUL2 { list-style-type: none; padding: 0; margin: 0; width: 100%;}
+					#myUL2 li a { border: 1px; margin-top: -1px; /* Prevent double borders */ background-color: rgba(0, 0, 0, 0.42) ; color: white; padding: 12px; text-decoration: none; font-size: 12px; display: block }
+					#myUL2 li a:hover:not(.header) { background-color: blue; }
+
+		</style>
+		<title>BERANDA : yosyapanjaitan.github.io</title>
+	</head>
+	<body class="latarbelakang">
+		<!--Kontainer-->
+		<div class="container-fluid">
+			<!--Navigation bar-->
+			<nav class="navbar navbar-expand-lg navbar-dark mt-1" style="background-color:rgba(0, 0, 0, 0.42)">
+				<a class="navbar-brand" href="#">
+					<b>YOSYA-GANTENG</b>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">BERANDA</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="rumahlinux.html">GNU/LINUX <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../windows/rumahwindows.html">WINDOWS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">BSD</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">MOBILE</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">GAMES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">PEMROGRAMAN</a>
+						</li>
+						<!--MENU DROPDOWN OTAKU-->
+						<div class="dropdown">
+						  <button class="btn dropdown-toggle text-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgba(0,0,0,0)">
+							  LAINNYA
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						  </div>
+						</div>
+					</ul>
+				<!--Fitur Pencarian-->
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+		<!--Isi Blog-->
+				<div class="jumbotron text-light mt-1" style="height: 100%; background-color:rgba(0, 0, 0, 0.42);">
+					<h1>PENCARIAN</h1>
+					<hr style="border-size: 10px; border-color: white;">
+						
+					<div class="row">
+						
+						<!-- CARI TOPIK ARTIKEL-->						
+						<div class="col-md-4">
+						<center><h5>Artikel</h5></center>	
+						<input type="text" id="myInput0" onkeyup="myFunction0()" placeholder=" Cari artikel... " title="Type in a name">
+						<ul id="myUL0">
+						  <li><a href="#">Ubuntu</p></a></li>
+						  <li><a href="#">Tint2</a></li>
+						  <li><a href="#">Slackware</a></li>
+						  <li><a href="#">Bob</a></li>
+						  <li><a href="#">Calvin</a></li>
+						  <li><a href="#">Christina</a></li>
+						  <li><a href="#">Cindy</a></li>
+						</ul>
+						</div>
+
+						<!-- CARI TOPIK TUTORIAL-->						
+						<div class="col-md-4">
+						<center><h5>Tutorial</h5></center>	
+						<input type="text" id="myInput1" onkeyup="myFunction1()" placeholder=" Cari tutorial disini... " title="Type in a name">
+						<ul id="myUL1">
+						  <li><a href="tutorial/debianserver-install.html">Install Debian Server</a></li>
+						  <li><a href="#">Tint2 <div class="pf">Sebuah panel yang indah</div></a></li>
+						  <li><a href="#">i3 WM <div class="pf">Tiling Window Manager</div></a></li>
+						  <li><a href="#">Install Ubuntu</a></li>
+						  <li><a href="#">IP Address</a></li>
+						  <li><a href="#">DHCP Server</a></li>
+						  <li><a href="#">Database Server</a></li>
+						</ul>
+						</div>
+						
+						<!-- CARI TOPIK TROUBLESHOOTING-->
+						<div class="col-md-4">
+						<center><h5>Troubleshooting</h5></center>	
+						<input type="text" id="myInput2" onkeyup="myFunction2()" placeholder=" Masukkan pesan error... " title="Type in a name">
+						<ul id="myUL2">
+						  <li><a href="#">Adele</a></li>
+						  <li><a href="#">Agnes</a></li>
+						  <li><a href="#">Kodok Billy</a></li>
+						  <li><a href="#">Bob</a></li>
+						  <li><a href="#">Calvin</a></li>
+						  <li><a href="#">Christina</a></li>
+						  <li><a href="#">Cindy</a></li>
+						</ul>
+						</div>
+						
+					</div>
+
+
+
+					<hr style="border-size: 10px; border-color: white;"> <!--warna garis horizontal-->				
+				</div>
+
+			<!--KONTEN DISAMPING-->
+		<div class="jumbotron jumbotron-fluid mt-3" style="background-color: rgba(0, 0, 0, 0.82)">
+			<center><h4 style="color: white;">TERIMA KASIH SUDAH BERKUNJUNG</h4></center>
+		</div>
+	</div>
+	
+	
+	<script>
+		function myFunction0() {
+			var input, filter, ul, li, a, i, txtValue;
+			input = document.getElementById("myInput0");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("myUL0");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				txtValue = a.textContent || a.innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+		</script>
+	
+	<script>
+		function myFunction1() {
+			var input, filter, ul, li, a, i, txtValue;
+			input = document.getElementById("myInput1");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("myUL1");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				txtValue = a.textContent || a.innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+	</script>	
+
+	<script>
+		function myFunction2() {
+			var input, filter, ul, li, a, i, txtValue;
+			input = document.getElementById("myInput2");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("myUL2");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				txtValue = a.textContent || a.innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+			
+    <script src="../styles/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../styles/js/popper.min.js"></script>
+    <script src="../styles/js/bootstrap.min.js"></script>
+  </body>
+</html>
